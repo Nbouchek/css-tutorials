@@ -1,12 +1,27 @@
+/* Element selector */
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/* id selector */
 #product-overview {
     background: #ff1b68;
 }
 
+/* Class selector */
 .section-title {
     color: #2ddf5c;
 }
 
-h1 {
+/* Combinator */
+/* More selector => higher specifity */
+#product-overview h1 {
     color: white;
     font-family: 'Indie Flower', cursive;
+}
+
+/* Element selector */
+h1 {
+    font-family: sans-serif;
 }
