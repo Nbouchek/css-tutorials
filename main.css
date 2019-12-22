@@ -1,15 +1,22 @@
+/*  universal selector */
+* {
+    box-sizing: border-box;
+}
+
 /* Element selector */
 body {
     font-family: 'Gloria Hallelujah', cursive;
     margin: 0px;
 }
 
-
 /* id selector */
 #product-overview {
     background: #ff1b68;
     width: 100%;
     height: 528px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
 }
 
 /* Class selector */
