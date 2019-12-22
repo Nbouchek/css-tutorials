@@ -15,8 +15,6 @@ body {
     width: 100%;
     height: 528px;
     padding: 10px;
-    border: 5px solid black;
-    margin: 10px;
 }
 
 /* Class selector */
@@ -34,4 +32,10 @@ body {
 /* Element selector */
 h1 {
     font-family: sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
 }
