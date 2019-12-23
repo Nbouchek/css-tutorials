@@ -72,18 +72,28 @@ h1 {
 
 }
 
+/* style links */
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
 }
 
+/* style links with psedo elements - after demo*/
+.main-nav__item a::after {
+    content: "(link)";
+    color: #ff000d;
+}
+
 .main-nav__item a:hover {
     color: white;
 }
+
 .main-nav__item a:active {
     color: white;
 }
 
+
+/* Style first letter - psedo elements demo*/
 p::first-letter {
     color: red;
     font-size: 20px;
