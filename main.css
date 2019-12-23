@@ -83,3 +83,8 @@ h1 {
 .main-nav__item a:active {
     color: white;
 }
+
+p::first-letter {
+    color: red;
+    font-size: 20px;
+}
