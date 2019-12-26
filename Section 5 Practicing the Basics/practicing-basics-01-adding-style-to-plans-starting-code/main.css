@@ -8,7 +8,7 @@ body {
 }
 
 #product-overview {
-    background: url("stones-background.jpg");
+    background: url("sky.jpg");
     width: 100%;
     height: 528px;
     padding: 10px;
@@ -48,16 +48,33 @@ body {
     border-radius: 8px;
 }
 
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585
+}
+
+.plan--highlighted .plan__title {
+    columns: white;
+}
+
+.plan--highlighted .plan__price {
+    columns: #0e4f1f;
+}
+
 .plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.plan__features li{
+.plan__features li {
     margin: 8px 0;
 
 }
+
 /* h1 {
     font-family: sans-serif;
 } */
